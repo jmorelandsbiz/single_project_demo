@@ -1,0 +1,37 @@
+
+version: 2
+groups:
+  - name: mi_zip_codes
+    owner:
+      name: Michigan Zip Code Team
+      email: zips@afgroup.com
+
+models:
+    - name: mi_zip
+      group: mi_zip_codes
+      access: public
+      config:
+        contract:
+          enforced: true
+      description: "Michigan Zip Codes"
+      columns:
+        - name: zip_id
+          data_type: number
+          constraints:
+            - type: not_null
+            - type: unique
+          tests:
+            - unique
+        - name: zip
+          data_type: varchar
+          constraints:
+            - type: not_null
+            - type: unique
+          tests:
+            - unique
+        - name: SourceSystem
+          data_type: varchar
+        - name: City
+          data_type: varchar
+        - name: State
+          data_type: varchar

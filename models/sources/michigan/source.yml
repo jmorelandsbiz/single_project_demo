@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: zip
+    database: us_zip_code_crosswalk_hudusps
+    schema: zipcode_crosswalk
+    tables:
+      - name: county_zip
+      - name: county
