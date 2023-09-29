@@ -7,7 +7,7 @@ groups:
       email: zips@phdata.io
 
 models:
-    - name: mn_zip
+    - name: pre_mn_zip
       group: mn_zip_codes
       access: public
       config:

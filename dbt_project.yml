@@ -38,5 +38,5 @@ models:
       materialized: table
       schema: single_source
     dim:
-      materialized: view
+      materialized: table
       schema: single_dim
