@@ -1,17 +1,17 @@
 
 version: 2
 groups:
-  - name: mn_zip_codes
+  - name: wi_zip_codes
     owner:
-      name: Minnesota Zip Code Team
+      name: Wisconsin Zip Code Team
       email: zips@phdata.io
 
 models:
-    - name: mn_zip
-      group: mn_zip_codes
+    - name: wi_zip
+      group: wi_zip_codes
       access: public
-    - name: pre_mn_zip
-      group: mn_zip_codes
+    - name: pre_wi_zip
+      group: wi_zip_codes
       access: protected
       config:
         contract:
