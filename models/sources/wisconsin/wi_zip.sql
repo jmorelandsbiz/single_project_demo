@@ -1,1 +1,0 @@
-select * from {{ ref('pre_wi_zip') }}
