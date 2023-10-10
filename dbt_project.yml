@@ -39,4 +39,3 @@ models:
       schema: single_source
     dim:
       materialized: table
-      schema: single_dim
