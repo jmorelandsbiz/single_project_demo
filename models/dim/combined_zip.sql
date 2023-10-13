@@ -1,8 +1,5 @@
-select top 20 zip_id, zip, city, state, sourcesystem
-from {{ ref('mi_zip') }}
+select zip_id, zip, city, state, sourcesystem
+from {{ ref('upper_midwest') }}
 union all
-select top 20 zip_id, zip, city, state, sourcesystem
-from {{ ref('mn_zip')}}
-union all
-select top 25 zip_id, zip, city, state, sourcesystem
-from {{ ref('wi_zip')}}
+select zip_id, zip, city, state, sourcesystem
+from {{ ref('other')}}

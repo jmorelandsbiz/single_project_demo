@@ -1,0 +1,11 @@
+# Minnesota zips and Michigan zips come from the same table but in a real scenario you would have a different source
+#version: 2
+#
+#sources:
+#  - name: zip
+#    database: us_zip_code_crosswalk_hudusps
+#    schema: zipcode_crosswalk
+#    tables:
+#      - name: county_zip
+#      - name: county
+#

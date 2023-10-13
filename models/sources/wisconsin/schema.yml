@@ -23,6 +23,7 @@ models:
           constraints:
             - type: not_null
             - type: unique
+              warn_unenforced: false
           tests:
             - unique
         - name: zip
@@ -30,6 +31,7 @@ models:
           constraints:
             - type: not_null
             - type: unique
+              warn_unenforced: false
           tests:
             - unique
         - name: SourceSystem

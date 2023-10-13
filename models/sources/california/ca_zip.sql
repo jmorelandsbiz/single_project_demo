@@ -1,0 +1,1 @@
+select * from {{ ref('pre_ca_zip') }}
