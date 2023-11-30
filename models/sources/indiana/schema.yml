@@ -19,7 +19,7 @@ models:
       description: "Indiana Zip Codes"
       columns:
         - name: zip_id
-          data_type: number
+          data_type: number(19,0)
           constraints:
             - type: not_null
             - type: unique
