@@ -1,22 +1,22 @@
 
 version: 2
 groups:
-  - name: mn_zip_codes
+  - name: wa_zip_codes
     owner:
-      name: Minnesota Zip Code Team
+      name: Washington Zip Code Team
       email: zips@phdata.io
 
 models:
-    - name: mn_zip
-      group: mn_zip_codes
+    - name: wa_zip
+      group: wa_zip_codes
       access: public
-    - name: pre_mn_zip
-      group: mn_zip_codes
+    - name: pre_wa_zip
+      group: wa_zip_codes
       access: protected
       config:
         contract:
           enforced: true
-      description: "Minnesota Zip Codes"
+      description: "Washington Zip Codes"
       columns:
         - name: zip_id
           data_type: number

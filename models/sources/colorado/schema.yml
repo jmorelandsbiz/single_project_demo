@@ -1,22 +1,22 @@
 
 version: 2
 groups:
-  - name: mn_zip_codes
+  - name: co_zip_codes
     owner:
-      name: Minnesota Zip Code Team
+      name: Colorado Zip Code Team
       email: zips@phdata.io
 
 models:
-    - name: mn_zip
-      group: mn_zip_codes
+    - name: co_zip
+      group: co_zip_codes
       access: public
-    - name: pre_mn_zip
-      group: mn_zip_codes
+    - name: pre_co_zip
+      group: co_zip_codes
       access: protected
       config:
         contract:
           enforced: true
-      description: "Minnesota Zip Codes"
+      description: "Colorado Zip Codes"
       columns:
         - name: zip_id
           data_type: number
