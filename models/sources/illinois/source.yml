@@ -1,4 +1,4 @@
-# Minnesota zips and Michigan zips come from the same table but in a real scenario you would have a different source
+# State Zips come from the same table but in a real scenario you would have a different source
 #version: 2
 #
 #sources:
