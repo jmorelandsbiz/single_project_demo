@@ -1,18 +1,8 @@
 
 version: 2
-groups:
-  - name: ca_zip_codes
-    owner:
-      name: California Zip Code Team
-      email: zips@phdata.io
-
 models:
     - name: ca_zip
-      
-      access: public
     - name: pre_ca_zip
-      
-      access: protected
       config:
         contract:
           enforced: true

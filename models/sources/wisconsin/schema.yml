@@ -1,18 +1,8 @@
 
 version: 2
-groups:
-  - name: wi_zip_codes
-    owner:
-      name: Wisconsin Zip Code Team
-      email: zips@phdata.io
-
 models:
     - name: wi_zip
-      
-      access: public
     - name: pre_wi_zip
-      
-      access: protected
       config:
         contract:
           enforced: true

@@ -1,18 +1,8 @@
 
 version: 2
-groups:
-  - name: mi_zip_codes
-    owner:
-      name: Michigan Zip Code Team
-      email: zips@phdata.io
-
 models:
     - name: mi_zip
-      
-      access: public
     - name: pre_mi_zip
-      
-      access: protected
       config:
         contract:
           enforced: true

@@ -1,18 +1,8 @@
 
 version: 2
-groups:
-  - name: az_zip_codes
-    owner:
-      name: Arizona Zip Code Team
-      email: zips@phdata.io
-
 models:
     - name: az_zip
-      
-      access: public
     - name: pre_az_zip
-      
-      access: protected
       config:
         contract:
           enforced: true

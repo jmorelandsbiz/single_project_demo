@@ -1,18 +1,8 @@
 
 version: 2
-groups:
-  - name: in_zip_codes
-    owner:
-      name: Indiana Zip Code Team
-      email: zips@phdata.io
-
 models:
     - name: in_zip
-      
-      access: public
     - name: pre_in_zip
-      
-      access: protected
       config:
         contract:
           enforced: true

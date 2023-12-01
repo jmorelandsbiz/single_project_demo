@@ -1,18 +1,8 @@
 
 version: 2
-groups:
-  - name: ia_zip_codes
-    owner:
-      name: Iowa Zip Code Team
-      email: zips@phdata.io
-
 models:
     - name: ia_zip
-      
-      access: public
     - name: pre_ia_zip
-      
-      access: protected
       config:
         contract:
           enforced: true
