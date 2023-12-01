@@ -8,10 +8,10 @@ groups:
 
 models:
     - name: ca_zip
-      group: ca_zip_codes
+      
       access: public
     - name: pre_ca_zip
-      group: ca_zip_codes
+      
       access: protected
       config:
         contract:
@@ -19,7 +19,7 @@ models:
       description: "California Zip Codes"
       columns:
         - name: zip_id
-          data_type: number
+          data_type: number(19,0)
           constraints:
             - type: not_null
             - type: unique
@@ -34,9 +34,9 @@ models:
               warn_unenforced: false
           tests:
             - unique
-        - name: SourceSystem
+        - name: sourcesystem
           data_type: varchar
-        - name: City
+        - name: city
           data_type: varchar
-        - name: State
+        - name: state
           data_type: varchar
