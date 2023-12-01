@@ -4,12 +4,15 @@ groups:
   - name: mi_zip_codes
     owner:
       name: Michigan Zip Code Team
-      email: zips@afgroup.com
+      email: zips@phdata.io
 
 models:
     - name: mi_zip
-      group: mi_zip_codes
+      
       access: public
+    - name: pre_mi_zip
+      
+      access: protected
       config:
         contract:
           enforced: true
@@ -31,9 +34,9 @@ models:
               warn_unenforced: false
           tests:
             - unique
-        - name: SourceSystem
+        - name: sourcesystem
           data_type: varchar
-        - name: City
+        - name: city
           data_type: varchar
-        - name: State
+        - name: state
           data_type: varchar
