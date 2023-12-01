@@ -1,18 +1,8 @@
 
 version: 2
-groups:
-  - name: nd_zip_codes
-    owner:
-      name: North Dakota Zip Code Team
-      email: zips@phdata.io
-
 models:
     - name: nd_zip
-      
-      access: public
     - name: pre_nd_zip
-      
-      access: protected
       config:
         contract:
           enforced: true

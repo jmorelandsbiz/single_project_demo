@@ -1,18 +1,8 @@
 
 version: 2
-groups:
-  - name: wa_zip_codes
-    owner:
-      name: Washington Zip Code Team
-      email: zips@phdata.io
-
 models:
     - name: wa_zip
-      
-      access: public
     - name: pre_wa_zip
-      
-      access: protected
       config:
         contract:
           enforced: true

@@ -1,18 +1,8 @@
 
 version: 2
-groups:
-  - name: tx_zip_codes
-    owner:
-      name: Texas Zip Code Team
-      email: zips@phdata.io
-
 models:
     - name: tx_zip
-      
-      access: public
     - name: pre_tx_zip
-      
-      access: protected
       config:
         contract:
           enforced: true

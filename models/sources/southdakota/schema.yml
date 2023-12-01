@@ -1,18 +1,8 @@
 
 version: 2
-groups:
-  - name: sd_zip_codes
-    owner:
-      name: South Dakota Zip Code Team
-      email: zips@phdata.io
-
 models:
     - name: sd_zip
-      
-      access: public
     - name: pre_sd_zip
-      
-      access: protected
       config:
         contract:
           enforced: true

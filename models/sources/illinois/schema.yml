@@ -1,18 +1,8 @@
 
 version: 2
-groups:
-  - name: il_zip_codes
-    owner:
-      name: Illinois Zip Code Team
-      email: zips@phdata.io
-
 models:
     - name: il_zip
-      
-      access: public
     - name: pre_il_zip
-      
-      access: protected
       config:
         contract:
           enforced: true

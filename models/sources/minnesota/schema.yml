@@ -1,18 +1,8 @@
 
 version: 2
-groups:
-  - name: mn_zip_codes
-    owner:
-      name: Minnesota Zip Code Team
-      email: zips@phdata.io
-
 models:
     - name: mn_zip
-      
-      access: public
     - name: pre_mn_zip
-      
-      access: protected
       config:
         contract:
           enforced: true

@@ -1,18 +1,8 @@
 
 version: 2
-groups:
-  - name: co_zip_codes
-    owner:
-      name: Colorado Zip Code Team
-      email: zips@phdata.io
-
 models:
     - name: co_zip
-      
-      access: public
     - name: pre_co_zip
-      
-      access: protected
       config:
         contract:
           enforced: true

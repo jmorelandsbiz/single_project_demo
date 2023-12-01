@@ -1,18 +1,8 @@
 
 version: 2
-groups:
-  - name: fl_zip_codes
-    owner:
-      name: Florida Zip Code Team
-      email: zips@phdata.io
-
 models:
     - name: fl_zip
-      
-      access: public
     - name: pre_fl_zip
-      
-      access: protected
       config:
         contract:
           enforced: true

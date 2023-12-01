@@ -1,18 +1,8 @@
 
 version: 2
-groups:
-  - name: ny_zip_codes
-    owner:
-      name: New York Zip Code Team
-      email: zips@phdata.io
-
 models:
     - name: ny_zip
-      
-      access: public
     - name: pre_ny_zip
-      
-      access: protected
       config:
         contract:
           enforced: true
