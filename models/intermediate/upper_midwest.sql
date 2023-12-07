@@ -1,3 +1,4 @@
+with sources_combined as (
 select zip_id, zip, city, state, sourcesystem
 from {{ ref('mi_zip') }}
 union all
@@ -21,3 +22,7 @@ from {{ ref('nd_zip')}}
 union all
 select zip_id, zip, city, state, sourcesystem
 from {{ ref('sd_zip')}}
+)
+
+select *, 'Unnecessary' as Unnecessary
+from sources_combined
